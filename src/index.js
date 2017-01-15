@@ -1,8 +1,8 @@
-import Test from './components/Test.vue'
+import VueHighlight from './components/VueHighlight.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('test', Test)
+  Vue.component('vueHighlight', VueHighlight)
   /* -- Add more components here -- */
 }
 
