@@ -3,12 +3,11 @@ import VueHighlight from './components/VueHighlight.vue'
 // Install the components
 export function install (Vue) {
   Vue.component('vueHighlight', VueHighlight)
-  /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  Test,
+  VueHighlight,
   /* -- Add more components here -- */
 }
 
